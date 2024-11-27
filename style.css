@@ -1,0 +1,80 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+ .main {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 400px;
+    text-align: center;
+  }
+  
+  /* Title Section */
+  .hello1 h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Input Fields */
+  .hello2, .hello3 {
+    margin: 10px 0;
+  }
+  
+  .hello2 label, .hello3 label {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .hello2 input, .hello3 input {
+    width: 80%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* Buttons */
+  .hello4 {
+    margin: 20px 0;
+  }
+  
+  .hello4 button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    font-size: 14px;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .hello4 button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Result Display */
+  .hello5 {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #007bff;
+  }
+   
