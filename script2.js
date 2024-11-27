@@ -37,4 +37,12 @@ switch(operation){
     }
    document.getElementById("result").innerText = (`Result is ${result}`)
 
+  
+
+}
+
+function clearInputs() {
+    document.getElementById("num1").value = '';
+    document.getElementById("num2").value = '';
+    document.getElementById("result").innerText = ''; 
 }
